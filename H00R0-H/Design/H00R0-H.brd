@@ -191,10 +191,10 @@
 <plain>
 <text x="7.2598" y="12.6206" size="1.27" layer="21" font="vector" rot="R325" align="center">3V3</text>
 <text x="7.2598" y="12.6206" size="1.27" layer="22" font="vector" rot="MR35" align="center">GND</text>
-<text x="13.64" y="1.4134" size="1.27" layer="21" font="vector" rot="R180" align="center">3V3</text>
-<text x="13.6146" y="1.4388" size="1.27" layer="22" font="vector" rot="MR0" align="center">GND</text>
-<text x="-13.5634" y="1.4056" size="1.27" layer="21" font="vector" rot="R180" align="center">3V3</text>
-<text x="-13.5634" y="1.4056" size="1.27" layer="22" font="vector" rot="MR0" align="center">GND</text>
+<text x="12.0906" y="1.2864" size="1.27" layer="21" font="vector" rot="R180" align="center">3V3</text>
+<text x="12.0652" y="1.2864" size="1.27" layer="22" font="vector" rot="MR0" align="center">GND</text>
+<text x="-12.2426" y="1.2278" size="1.27" layer="21" font="vector" rot="R180" align="center">3V3</text>
+<text x="-12.1664" y="1.2278" size="1.27" layer="22" font="vector" rot="MR0" align="center">GND</text>
 <text x="-7.2602" y="12.6206" size="1.27" layer="21" font="vector" rot="R35" align="center">3V3</text>
 <text x="-7.2602" y="12.6206" size="1.27" layer="22" font="vector" rot="MR325" align="center">GND</text>
 <circle x="0" y="0" radius="8.128" width="0.002540625" layer="41"/>
@@ -203,7 +203,7 @@
 <libraries>
 <library name="hexabitz_connectors" urn="urn:adsk.eagle:library:20064578">
 <packages>
-<package name="HEXABIT_17.32_TOP_HALF" urn="urn:adsk.eagle:footprint:20064586/1" library_version="35">
+<package name="HEXABIT_17.32_TOP_HALF" urn="urn:adsk.eagle:footprint:20064586/1" locally_modified="yes" library_version="35" library_locally_modified="yes">
 <wire x1="17.32" y1="0" x2="8.66" y2="15" width="0.1" layer="20"/>
 <wire x1="8.66" y1="15" x2="-8.66" y2="15" width="0.1" layer="20"/>
 <wire x1="-8.66" y1="15" x2="-17.32" y2="0" width="0.1" layer="20"/>
@@ -243,43 +243,43 @@
 <vertex x="8.66" y="15"/>
 </polygon>
 <polygon width="0.1" layer="1">
-<vertex x="16.37" y="1.65" curve="60"/>
-<vertex x="15.4302" y="0.001"/>
+<vertex x="15.7096" y="2.7422" curve="60"/>
+<vertex x="13.9062" y="0.001"/>
 <vertex x="17.32" y="0"/>
 </polygon>
 <polygon width="0.1" layer="16">
-<vertex x="16.37" y="1.65" curve="60"/>
-<vertex x="15.4302" y="0.001"/>
+<vertex x="15.735" y="2.7676" curve="60"/>
+<vertex x="13.9062" y="0.001"/>
 <vertex x="17.32" y="0"/>
 </polygon>
 <polygon width="0.1" layer="29">
-<vertex x="16.37" y="1.65" curve="60"/>
-<vertex x="15.4302" y="0.001"/>
+<vertex x="15.735" y="2.7422" curve="60"/>
+<vertex x="13.9062" y="0.001"/>
 <vertex x="17.32" y="0"/>
 </polygon>
 <polygon width="0.1" layer="30">
-<vertex x="16.37" y="1.65" curve="60"/>
-<vertex x="15.4302" y="0.001"/>
+<vertex x="15.7096" y="2.7422" curve="60"/>
+<vertex x="13.8808" y="0.001"/>
 <vertex x="17.32" y="0"/>
 </polygon>
 <polygon width="0.1" layer="1">
-<vertex x="-16.37" y="1.65" curve="-60"/>
-<vertex x="-15.4302" y="0.001"/>
+<vertex x="-15.735" y="2.7676" curve="-60"/>
+<vertex x="-13.8554" y="0.001"/>
 <vertex x="-17.32" y="0"/>
 </polygon>
 <polygon width="0.1" layer="16">
-<vertex x="-16.37" y="1.65" curve="-60"/>
-<vertex x="-15.4302" y="0.001"/>
+<vertex x="-15.735" y="2.7676" curve="-60"/>
+<vertex x="-13.8808" y="0.001"/>
 <vertex x="-17.32" y="0"/>
 </polygon>
 <polygon width="0.1" layer="29">
-<vertex x="-16.37" y="1.65" curve="-60"/>
-<vertex x="-15.4302" y="0.001"/>
+<vertex x="-15.735" y="2.7676" curve="-60"/>
+<vertex x="-13.8554" y="0.001"/>
 <vertex x="-17.32" y="0"/>
 </polygon>
 <polygon width="0.1" layer="30">
-<vertex x="-16.37" y="1.65" curve="-60"/>
-<vertex x="-15.4302" y="0.001"/>
+<vertex x="-15.7096" y="2.7676" curve="-60"/>
+<vertex x="-13.8554" y="0.001"/>
 <vertex x="-17.32" y="0"/>
 </polygon>
 <polygon width="0.1" layer="1">
@@ -302,13 +302,9 @@
 <vertex x="-9.61" y="13.35"/>
 <vertex x="-8.66" y="15"/>
 </polygon>
-<polygon width="0.1" layer="1">
-<vertex x="13.84" y="6.03" curve="-180"/>
-<vertex x="12.14" y="8.97"/>
-</polygon>
 <polygon width="0.1" layer="16">
-<vertex x="13.84" y="6.03" curve="-180"/>
-<vertex x="12.14" y="8.97"/>
+<vertex x="14.3734" y="5.1156" curve="-180"/>
+<vertex x="11.6574" y="9.8082"/>
 </polygon>
 <polygon width="0.1" layer="29">
 <vertex x="13.84" y="6.03" curve="-180"/>
@@ -318,13 +314,9 @@
 <vertex x="13.84" y="6.03" curve="-180"/>
 <vertex x="12.14" y="8.97"/>
 </polygon>
-<polygon width="0.1" layer="1">
-<vertex x="-12.14" y="8.97" curve="-180"/>
-<vertex x="-13.84" y="6.03"/>
-</polygon>
 <polygon width="0.1" layer="16">
-<vertex x="-12.14" y="8.97" curve="-180"/>
-<vertex x="-13.84" y="6.03"/>
+<vertex x="-11.6828" y="9.7828" curve="-180"/>
+<vertex x="-14.3988" y="5.0648"/>
 </polygon>
 <polygon width="0.1" layer="29">
 <vertex x="-12.14" y="8.97" curve="-180"/>
@@ -334,13 +326,9 @@
 <vertex x="-12.14" y="8.97" curve="-180"/>
 <vertex x="-13.84" y="6.03"/>
 </polygon>
-<polygon width="0.1" layer="1">
-<vertex x="1.7" y="15" curve="-180"/>
-<vertex x="-1.7" y="15"/>
-</polygon>
 <polygon width="0.1" layer="16">
-<vertex x="1.7" y="15" curve="-180"/>
-<vertex x="-1.7" y="15"/>
+<vertex x="2.716" y="15.0254" curve="-180"/>
+<vertex x="-2.716" y="15"/>
 </polygon>
 <polygon width="0.1" layer="29">
 <vertex x="1.7" y="15" curve="-180"/>
@@ -349,11 +337,23 @@
 <polygon width="0.1" layer="30">
 <vertex x="1.7" y="15" curve="-180"/>
 <vertex x="-1.7" y="15"/>
+</polygon>
+<polygon width="0.1" layer="1">
+<vertex x="-14.36936875" y="5.09296875" curve="180"/>
+<vertex x="-11.666371875" y="9.7712375"/>
+</polygon>
+<polygon width="0.1" layer="1">
+<vertex x="-2.685859375" y="15.019915625" curve="180"/>
+<vertex x="2.717140625" y="15.0181875"/>
+</polygon>
+<polygon width="0.1" layer="1">
+<vertex x="11.657459375" y="9.799703125" curve="180"/>
+<vertex x="14.357459375" y="5.119703125"/>
 </polygon>
 </package>
 </packages>
 <packages3d>
-<package3d name="HEXABIT_17.32_TOP_HALF" urn="urn:adsk.eagle:package:20064640/2" type="empty" library_version="35">
+<package3d name="HEXABIT_17.32_TOP_HALF" urn="urn:adsk.eagle:package:20064640/2" type="empty" library_version="35" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="HEXABIT_17.32_TOP_HALF"/>
 </packageinstances>
@@ -362,7 +362,7 @@
 </library>
 <library name="HEXABITZ_USER_INTERFACE_PARTS" urn="urn:adsk.eagle:library:20064563">
 <packages>
-<package name="HEXABITZ-LOGO" urn="urn:adsk.eagle:footprint:43807244/1" locally_modified="yes" library_version="19" library_locally_modified="yes">
+<package name="HEXABITZ-LOGO" urn="urn:adsk.eagle:footprint:43807244/2" library_version="20" library_locally_modified="yes">
 <description>&lt;b&gt;Trimble-Logo&lt;/b&gt;&lt;p&gt;</description>
 <rectangle x1="2.590796875" y1="6.7183" x2="2.936234375" y2="6.73861875" layer="21"/>
 <rectangle x1="3.464559375" y1="6.7183" x2="5.415278125" y2="6.73861875" layer="21"/>
@@ -4483,7 +4483,7 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="HEXABITZ-LOGO" urn="urn:adsk.eagle:package:43807247/1" type="empty" library_version="19" library_locally_modified="yes">
+<package3d name="HEXABITZ-LOGO" urn="urn:adsk.eagle:package:43807247/2" type="empty" library_version="20" library_locally_modified="yes">
 <description>&lt;b&gt;Trimble-Logo&lt;/b&gt;&lt;p&gt;</description>
 <packageinstances>
 <packageinstance name="HEXABITZ-LOGO"/>
@@ -4685,7 +4685,7 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="P1" library="hexabitz_connectors" library_urn="urn:adsk.eagle:library:20064578" package="HEXABIT_17.32_TOP_HALF" package3d_urn="urn:adsk.eagle:package:20064640/2" value="HEXABIT_17.32_TOP_HALF" x="0" y="0.0508" smashed="yes"/>
-<element name="TRIMBLE-LOGO1" library="HEXABITZ_USER_INTERFACE_PARTS" library_urn="urn:adsk.eagle:library:20064563" package="HEXABITZ-LOGO" package3d_urn="urn:adsk.eagle:package:43807247/1" value="HEXABITZ-LOGO" x="-4.0132" y="-0.2286" smashed="yes"/>
+<element name="TRIMBLE-LOGO1" library="HEXABITZ_USER_INTERFACE_PARTS" library_urn="urn:adsk.eagle:library:20064563" package="HEXABITZ-LOGO" package3d_urn="urn:adsk.eagle:package:43807247/2" value="HEXABITZ-LOGO" x="-4.0132" y="-0.2286" smashed="yes"/>
 </elements>
 <signals>
 <signal name="VDD">

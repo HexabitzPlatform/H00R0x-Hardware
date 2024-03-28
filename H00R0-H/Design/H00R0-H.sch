@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -191,7 +191,7 @@
 <libraries>
 <library name="hexabitz_connectors" urn="urn:adsk.eagle:library:20064578">
 <packages>
-<package name="HEXABIT_17.32_TOP_HALF" urn="urn:adsk.eagle:footprint:20064586/1" library_version="35">
+<package name="HEXABIT_17.32_TOP_HALF" urn="urn:adsk.eagle:footprint:20064586/1" locally_modified="yes" library_version="35" library_locally_modified="yes">
 <wire x1="17.32" y1="0" x2="8.66" y2="15" width="0.1" layer="20"/>
 <wire x1="8.66" y1="15" x2="-8.66" y2="15" width="0.1" layer="20"/>
 <wire x1="-8.66" y1="15" x2="-17.32" y2="0" width="0.1" layer="20"/>
@@ -231,43 +231,43 @@
 <vertex x="8.66" y="15"/>
 </polygon>
 <polygon width="0.1" layer="1">
-<vertex x="16.37" y="1.65" curve="60"/>
-<vertex x="15.4302" y="0.001"/>
+<vertex x="15.7096" y="2.7422" curve="60"/>
+<vertex x="13.9062" y="0.001"/>
 <vertex x="17.32" y="0"/>
 </polygon>
 <polygon width="0.1" layer="16">
-<vertex x="16.37" y="1.65" curve="60"/>
-<vertex x="15.4302" y="0.001"/>
+<vertex x="15.735" y="2.7676" curve="60"/>
+<vertex x="13.9062" y="0.001"/>
 <vertex x="17.32" y="0"/>
 </polygon>
 <polygon width="0.1" layer="29">
-<vertex x="16.37" y="1.65" curve="60"/>
-<vertex x="15.4302" y="0.001"/>
+<vertex x="15.735" y="2.7422" curve="60"/>
+<vertex x="13.9062" y="0.001"/>
 <vertex x="17.32" y="0"/>
 </polygon>
 <polygon width="0.1" layer="30">
-<vertex x="16.37" y="1.65" curve="60"/>
-<vertex x="15.4302" y="0.001"/>
+<vertex x="15.7096" y="2.7422" curve="60"/>
+<vertex x="13.8808" y="0.001"/>
 <vertex x="17.32" y="0"/>
 </polygon>
 <polygon width="0.1" layer="1">
-<vertex x="-16.37" y="1.65" curve="-60"/>
-<vertex x="-15.4302" y="0.001"/>
+<vertex x="-15.735" y="2.7676" curve="-60"/>
+<vertex x="-13.8554" y="0.001"/>
 <vertex x="-17.32" y="0"/>
 </polygon>
 <polygon width="0.1" layer="16">
-<vertex x="-16.37" y="1.65" curve="-60"/>
-<vertex x="-15.4302" y="0.001"/>
+<vertex x="-15.735" y="2.7676" curve="-60"/>
+<vertex x="-13.8808" y="0.001"/>
 <vertex x="-17.32" y="0"/>
 </polygon>
 <polygon width="0.1" layer="29">
-<vertex x="-16.37" y="1.65" curve="-60"/>
-<vertex x="-15.4302" y="0.001"/>
+<vertex x="-15.735" y="2.7676" curve="-60"/>
+<vertex x="-13.8554" y="0.001"/>
 <vertex x="-17.32" y="0"/>
 </polygon>
 <polygon width="0.1" layer="30">
-<vertex x="-16.37" y="1.65" curve="-60"/>
-<vertex x="-15.4302" y="0.001"/>
+<vertex x="-15.7096" y="2.7676" curve="-60"/>
+<vertex x="-13.8554" y="0.001"/>
 <vertex x="-17.32" y="0"/>
 </polygon>
 <polygon width="0.1" layer="1">
@@ -290,13 +290,9 @@
 <vertex x="-9.61" y="13.35"/>
 <vertex x="-8.66" y="15"/>
 </polygon>
-<polygon width="0.1" layer="1">
-<vertex x="13.84" y="6.03" curve="-180"/>
-<vertex x="12.14" y="8.97"/>
-</polygon>
 <polygon width="0.1" layer="16">
-<vertex x="13.84" y="6.03" curve="-180"/>
-<vertex x="12.14" y="8.97"/>
+<vertex x="14.3734" y="5.1156" curve="-180"/>
+<vertex x="11.6574" y="9.8082"/>
 </polygon>
 <polygon width="0.1" layer="29">
 <vertex x="13.84" y="6.03" curve="-180"/>
@@ -306,13 +302,9 @@
 <vertex x="13.84" y="6.03" curve="-180"/>
 <vertex x="12.14" y="8.97"/>
 </polygon>
-<polygon width="0.1" layer="1">
-<vertex x="-12.14" y="8.97" curve="-180"/>
-<vertex x="-13.84" y="6.03"/>
-</polygon>
 <polygon width="0.1" layer="16">
-<vertex x="-12.14" y="8.97" curve="-180"/>
-<vertex x="-13.84" y="6.03"/>
+<vertex x="-11.6828" y="9.7828" curve="-180"/>
+<vertex x="-14.3988" y="5.0648"/>
 </polygon>
 <polygon width="0.1" layer="29">
 <vertex x="-12.14" y="8.97" curve="-180"/>
@@ -322,13 +314,9 @@
 <vertex x="-12.14" y="8.97" curve="-180"/>
 <vertex x="-13.84" y="6.03"/>
 </polygon>
-<polygon width="0.1" layer="1">
-<vertex x="1.7" y="15" curve="-180"/>
-<vertex x="-1.7" y="15"/>
-</polygon>
 <polygon width="0.1" layer="16">
-<vertex x="1.7" y="15" curve="-180"/>
-<vertex x="-1.7" y="15"/>
+<vertex x="2.716" y="15.0254" curve="-180"/>
+<vertex x="-2.716" y="15"/>
 </polygon>
 <polygon width="0.1" layer="29">
 <vertex x="1.7" y="15" curve="-180"/>
@@ -337,11 +325,23 @@
 <polygon width="0.1" layer="30">
 <vertex x="1.7" y="15" curve="-180"/>
 <vertex x="-1.7" y="15"/>
+</polygon>
+<polygon width="0.1" layer="1">
+<vertex x="-14.36936875" y="5.09296875" curve="180"/>
+<vertex x="-11.666371875" y="9.7712375"/>
+</polygon>
+<polygon width="0.1" layer="1">
+<vertex x="-2.685859375" y="15.019915625" curve="180"/>
+<vertex x="2.717140625" y="15.0181875"/>
+</polygon>
+<polygon width="0.1" layer="1">
+<vertex x="11.657459375" y="9.799703125" curve="180"/>
+<vertex x="14.357459375" y="5.119703125"/>
 </polygon>
 </package>
 </packages>
 <packages3d>
-<package3d name="HEXABIT_17.32_TOP_HALF" urn="urn:adsk.eagle:package:20064640/2" type="empty" library_version="35">
+<package3d name="HEXABIT_17.32_TOP_HALF" urn="urn:adsk.eagle:package:20064640/2" type="empty" library_version="35" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="HEXABIT_17.32_TOP_HALF"/>
 </packageinstances>
@@ -384,7 +384,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="HEXABIT_17.32_TOP_HALF" urn="urn:adsk.eagle:component:20064661/2" prefix="P" library_version="35">
+<deviceset name="HEXABIT_17.32_TOP_HALF" urn="urn:adsk.eagle:component:20064661/2" prefix="P" library_version="35" library_locally_modified="yes">
 <description>&lt;b&gt;Hexabitz Hexagon Module Connector&lt;/b&gt;&lt;p&gt;Hexagon side length = 17.32mm.&lt;p&gt;</description>
 <gates>
 <gate name="G$1" symbol="HEXABIT_TOP_HALF" x="0" y="0"/>
@@ -473,7 +473,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </library>
 <library name="HEXABITZ_USER_INTERFACE_PARTS" urn="urn:adsk.eagle:library:20064563">
 <packages>
-<package name="HEXABITZ-LOGO" urn="urn:adsk.eagle:footprint:43807244/1" locally_modified="yes" library_version="19" library_locally_modified="yes">
+<package name="HEXABITZ-LOGO" urn="urn:adsk.eagle:footprint:43807244/2" library_version="20" library_locally_modified="yes">
 <description>&lt;b&gt;Trimble-Logo&lt;/b&gt;&lt;p&gt;</description>
 <rectangle x1="2.590796875" y1="6.7183" x2="2.936234375" y2="6.73861875" layer="21"/>
 <rectangle x1="3.464559375" y1="6.7183" x2="5.415278125" y2="6.73861875" layer="21"/>
@@ -4594,7 +4594,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </package>
 </packages>
 <packages3d>
-<package3d name="HEXABITZ-LOGO" urn="urn:adsk.eagle:package:43807247/1" type="empty" library_version="19" library_locally_modified="yes">
+<package3d name="HEXABITZ-LOGO" urn="urn:adsk.eagle:package:43807247/2" type="empty" library_version="20" library_locally_modified="yes">
 <description>&lt;b&gt;Trimble-Logo&lt;/b&gt;&lt;p&gt;</description>
 <packageinstances>
 <packageinstance name="HEXABITZ-LOGO"/>
@@ -6664,7 +6664,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="HEXABITZ-LOGO" urn="urn:adsk.eagle:component:43807253/1" prefix="TRIMBLE-LOGO" library_version="19" library_locally_modified="yes">
+<deviceset name="HEXABITZ-LOGO" urn="urn:adsk.eagle:component:43807253/2" prefix="TRIMBLE-LOGO" library_version="20" library_locally_modified="yes">
 <description>&lt;b&gt;Trimble-Logo&lt;/b&gt;&lt;p&gt;</description>
 <gates>
 <gate name="G$1" symbol="HEXABITZ-LOGO" x="0" y="0"/>
@@ -6672,7 +6672,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <devices>
 <device name="" package="HEXABITZ-LOGO">
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43807247/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43807247/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -6695,7 +6695,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P1" library="hexabitz_connectors" library_urn="urn:adsk.eagle:library:20064578" deviceset="HEXABIT_17.32_TOP_HALF" device="" package3d_urn="urn:adsk.eagle:package:20064640/2"/>
-<part name="TRIMBLE-LOGO1" library="HEXABITZ_USER_INTERFACE_PARTS" library_urn="urn:adsk.eagle:library:20064563" deviceset="HEXABITZ-LOGO" device="" package3d_urn="urn:adsk.eagle:package:43807247/1"/>
+<part name="TRIMBLE-LOGO1" library="HEXABITZ_USER_INTERFACE_PARTS" library_urn="urn:adsk.eagle:library:20064563" deviceset="HEXABITZ-LOGO" device="" package3d_urn="urn:adsk.eagle:package:43807247/2"/>
 </parts>
 <sheets>
 <sheet>
